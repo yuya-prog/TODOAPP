@@ -1,0 +1,36 @@
+.ly_header {
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("../../assets/header_block.jpg");
+  background-size: auto;
+  background-position: center;
+}
+.ly_header__inner {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+}
+
+.bl_header__logo {
+  width: 60%;
+  height: 100%;
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.bl_header_help {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.el_header_link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+}

@@ -1,0 +1,19 @@
+.ly_footer {
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: #000;
+  background-size: auto;
+  background-position: center;
+}
+
+.ly_footer_inner {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
