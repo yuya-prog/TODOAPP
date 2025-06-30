@@ -1,0 +1,34 @@
+.ly_content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.ly_member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bl_table {
+  margin-top: 10px;
+  border: 1;
+}
+
+.bl_tableRow {
+  height: 25px;
+}
+
+.bl_tableCell {
+  padding: 5px;
+  text-align: center;
+}
+
+.bl_tableCellRight {
+  padding: 5px;
+  text-align: right;
+}

@@ -1,20 +1,16 @@
 .ly_header {
-  height: 100px;
   padding-top: 20px;
-  padding-bottom: 20px;
-  background-image: url("../../assets/header_block.jpg");
-  background-size: auto;
-  background-position: center;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .ly_header__inner {
-  width: 80%;
+  max-width: 1230px;
   margin: auto;
-  height: 100%;
   display: flex;
+  justify-content: space-between;
 }
 
 .bl_header__logo {
-  width: 60%;
   height: 100%;
   font-size: 40px;
   color: #fff;
@@ -22,7 +18,6 @@
 }
 
 .bl_header_help {
-  width: 40%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -31,6 +26,6 @@
 .el_header_link {
   color: #fff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 14px;
   margin-left: 20px;
 }

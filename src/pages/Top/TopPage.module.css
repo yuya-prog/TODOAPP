@@ -1,0 +1,55 @@
+.ly_topPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.el_text_center {
+  text-align: center;
+}
+
+.el_title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.el_subtitle {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.ly_startButton {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.el_startButton {
+  padding: 20px 30px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.el_startButton:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.el_fadeInUp {
+  animation: fadeInUp 5s ease-out forwards;
+}

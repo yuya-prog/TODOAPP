@@ -1,14 +1,13 @@
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import MyPage from "./pages/MyPage";
+import { RouterProvider } from "react-router-dom";
+import router from "@/router/router.tsx";
+
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <>
-      <Header />
-      <MyPage />
-      <Footer />
-    </>
+    <div className={styles.appWrapper}>
+      <RouterProvider router={router} />
+    </div>
   );
 }
 

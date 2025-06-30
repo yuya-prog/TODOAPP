@@ -1,0 +1,9 @@
+.ly_content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/buttle_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

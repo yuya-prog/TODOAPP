@@ -1,0 +1,9 @@
+.appWrapper {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  /* max-widthやbackground-colorはお好みで */
+  max-width: 1200px;
+  background-color: #fff;
+  margin: auto;
+}

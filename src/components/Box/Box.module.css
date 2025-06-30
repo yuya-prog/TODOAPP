@@ -1,0 +1,26 @@
+.bl_box {
+  background: #e0e0e0;
+  opacity: 0.8;
+  border: 2px solid #000;
+}
+
+.bl_small {
+  width: 160px;
+  height: 120px;
+}
+
+.bl_midium {
+  width: 200px;
+  height: 200px;
+}
+
+.bl_large {
+  width: 300px;
+  height: 300px;
+}
+
+.boxTableWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

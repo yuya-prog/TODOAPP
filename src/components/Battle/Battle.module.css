@@ -1,0 +1,19 @@
+.ly_buttlebox {
+  position: absolute;
+  bottom: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1230px;
+}
+
+.el_imgSize {
+  width: 300px;
+}
+
+.el_buttlebox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
