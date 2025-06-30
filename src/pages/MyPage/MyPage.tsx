@@ -44,7 +44,7 @@ const MyPage = () => {
   return (
     <div className={styles.ly_content}>
       <div className={styles.ly_member}>
-        <Box userInfo={userInfo} hp={hp}></Box>
+        a<Box userInfo={userInfo} hp={hp}></Box>
       </div>
       <Battle enemies={enemies}></Battle>
 
